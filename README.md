@@ -20,31 +20,6 @@ The application relies on four pre-trained serialization files located in the mo
 3.  `classifier.pkl`: Categorizes the recovery tracking stream or success probability class.
 4.  `regressor.pkl`: Outputs the final numerical prediction for the expected recovery duration.
 
-## 🚀 Installation & Local Setup
-
-### Prerequisite
-Ensure you have **Python 3.8+** installed on your system.
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com
-cd sobrix
-```
-
-### 2. Install Required Packages
-Install all the necessary Python packages using pip:
-```bash
-pip install Django pandas numpy scikit-learn joblib
-```
-
-### 3. Run the Development Server
-Apply database migrations and start the Django web server:
-```bash
-python manage.py migrate
-python manage.py runserver
-```
-Open your browser and navigate to `http://127.0.0` to view the application interface.
-
 ## 🛠️ Tech Stack
 *   **Backend & Web Framework:** Django
 *   **Data Processing:** Pandas, NumPy
